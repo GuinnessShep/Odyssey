@@ -10,6 +10,7 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 ARCHS = arm64 arm64e
+Based on dependency analysis
 SWIFT_ACTIVE_COMPILATION_CONDITIONS[config=Debug] = MAINAPP DEBUG
 SWIFT_ACTIVE_COMPILATION_CONDITIONS[config=Release] = MAINAPP
 HEADER_SEARCH_PATHS="$(SRCROOT)/Odyssey/post-exploit/include/"
